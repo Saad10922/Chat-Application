@@ -6,9 +6,16 @@ This repository contains the implementation of a chat application using socket p
 The chat application consists of a server program and a client program. The server listens for incoming client connections and facilitates message exchange between connected clients. Each client can send messages to the server, which then broadcasts the messages to all connected clients. The application supports multiple clients and provides a basic chat room functionality.
 
 ## How to Run
+**First of all extract these three zip files**
+1.Server
+2.Client
+3.Client2
+
+Then open the server folder and run server.sln Now similarly open client one folder And run the client.sln file similarly open the second client folder and run its client.sln file now as server is running both of the clients get connected to the server and when we type a message from one client it gets sent to the server and make sure that you have written the user name on each client program.
 
 ### Prerequisites
-
+1.**Visual Studio 2022**
+Alternatives
 1. Ensure you have a C++ compiler installed (e.g., GCC, MinGW, Visual Studio).
 2. Ensure you have Git installed to clone the repository.
 3. Install Windows Sockets 2 (Winsock) if not already installed.
@@ -16,7 +23,6 @@ The chat application consists of a server program and a client program. The serv
 ### Step-by-Step Instructions
 
 1. **Clone the Repository**
-   ```sh
    git clone https://github.com/your-username/ChatApplication.git
    cd ChatApplication
  2.  **Compile the Server Program**
